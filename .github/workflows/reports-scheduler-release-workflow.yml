@@ -2,8 +2,8 @@ name: Release Reports Scheduler Artifacts
 # This workflow is triggered on creating tags to master or an opendistro release branch
 on:
   push:
-    tags:
-      - "v*"
+    branches:
+      - "new"
 
 jobs:
   build:
